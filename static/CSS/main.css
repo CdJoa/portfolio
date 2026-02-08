@@ -116,6 +116,24 @@ header {
   border-radius: 1rem;
 }
 
+/* Proyectos */
+.project-card {
+  background: var(--card-bg);
+  border: 2px solid var(--primary-color);
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.project-card img {
+  border-bottom: 2px solid var(--primary-color);
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .neon-text {
